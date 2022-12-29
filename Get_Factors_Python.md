@@ -1,5 +1,8 @@
 Fuction that connects to [FactorDB](http://factordb.com/) and returns a list of factors that were found
 ````python3
+import requests
+#
+#
 def get_factor_list_from_factordb(n):
     factor_list=[]
     #Establishing a connection with factordb
